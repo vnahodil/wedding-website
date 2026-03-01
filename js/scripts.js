@@ -137,10 +137,6 @@ $(document).ready(function () {
     });
 
 
-    /********************** Embed youtube video *********************/
-    $('.player').YTPlayer();
-
-
     /********************** Toggle Map Content **********************/
     $('#btn-show-map').click(function () {
         $('#map-content').toggleClass('toggle-map-content');
@@ -176,7 +172,7 @@ $(document).ready(function () {
             address: 'Uhrovic mlýn, Milíčov 1, Šípy 270 34',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact Mr. Amit Roy at +91 9876543210."
+            description: ""
         }
     });
 
