@@ -167,18 +167,25 @@
         transition-delay: 0.2s
     }
 
-    nav ul.member-actions li:first-child {
+    nav ul.primary-nav li:nth-child(5) {
         -moz-transition-delay: 0.25s;
         -o-transition-delay: 0.25s;
         -webkit-transition-delay: 0.25s;
         transition-delay: 0.25s
     }
 
-    nav ul.member-actions li:nth-child(2) {
+    nav ul.member-actions li:first-child {
         -moz-transition-delay: 0.30s;
         -o-transition-delay: 0.30s;
         -webkit-transition-delay: 0.30s;
         transition-delay: 0.30s
+    }
+
+    nav ul.member-actions li:nth-child(2) {
+        -moz-transition-delay: 0.35s;
+        -o-transition-delay: 0.35s;
+        -webkit-transition-delay: 0.35s;
+        transition-delay: 0.35s
     }
 
     .intro-content {

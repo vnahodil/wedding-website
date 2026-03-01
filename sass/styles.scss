@@ -891,6 +891,153 @@ footer {
 }
 
 /* ==========================================================================
+Schedule / Timeline
+========================================================================== */
+.schedule-list {
+  margin-top: 20px;
+}
+.schedule-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px 0;
+  border-bottom: 1px solid $keyline-color;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .schedule-time {
+    min-width: 70px;
+    font-size: 13px;
+    font-weight: $bold;
+    color: $accent-color;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top: 2px;
+  }
+
+  .schedule-content {
+    flex: 1;
+    padding-left: 20px;
+
+    h5 {
+      margin: 0 0 4px 0;
+    }
+    p {
+      margin: 0;
+      padding-bottom: 0;
+    }
+  }
+}
+
+/* ==========================================================================
+Accommodation
+========================================================================== */
+.accommodation {
+  background: $section-light;
+}
+.accommodation-card {
+  padding: 30px 25px;
+  border: 1px solid $keyline-color;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: box-shadow 300ms ease-in-out;
+
+  &:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  }
+
+  i.fa {
+    font-size: 28px;
+    color: $accent-color;
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  h5 {
+    margin-bottom: 10px;
+  }
+
+  p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+/* ==========================================================================
+FAQ
+========================================================================== */
+.faq {
+  background: $section-dark;
+
+  .panel-group {
+    margin-top: 20px;
+  }
+
+  .panel {
+    border: none;
+    border-bottom: 1px solid $keyline-color;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .panel-heading {
+    background: transparent;
+    border: none;
+    padding: 18px 0;
+  }
+
+  .panel-title a {
+    color: $txt-secondary;
+    font-size: $font-size-h5;
+    text-transform: uppercase;
+    font-weight: $semibold;
+    letter-spacing: 1px;
+    display: block;
+
+    &:hover {
+      color: $accent-color;
+      text-decoration: none;
+    }
+
+    &.collapsed {
+      color: $txt-primary;
+
+      &:hover {
+        color: $accent-color;
+      }
+    }
+  }
+
+  .panel-body {
+    padding: 0 0 18px 0;
+
+    p {
+      padding-bottom: 0;
+      margin: 0;
+    }
+  }
+}
+
+/* ==========================================================================
+Contacts
+========================================================================== */
+.contacts {
+  background: $section-light;
+
+  i.fa {
+    color: $accent-color;
+    margin-right: 5px;
+  }
+}
+
+/* ==========================================================================
 Bootstrap override
 ========================================================================== */
 body.modal-open {
