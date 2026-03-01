@@ -10,12 +10,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <title>Ram & Antara getting hitched!</title>
-    <meta name="description" content="We would like to invite you to our big day.">
+    <title>Luci a Jardík mají svatbu!</title>
+    <meta name="description" content="Chceme Vás pozvat na náš velký den.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ffffff">
-    <meta property="og:title" content="Ram & Antara getting hitched">
-    <meta property="og:description" content="We would like to invite you to our big day.">
+    <meta property="og:title" content="Luci a Jardík mají svatbu">
+    <meta property="og:description" content="Chceme Vás pozvat na náš velký den.">
     <meta property="og:image" content="https://wedding.ramswaroop.me/img/hero-min.jpg">
     <meta property="og:type" content="website">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -81,7 +81,7 @@
                         </ul>
                         <ul class="member-actions">
                             <li><a href="#map" class="login">Venue</a></li>
-                            <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
+                            <li><a href="#rsvp" class="btn-white btn-small">Potvrdit účast</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -105,7 +105,7 @@
         <div class="row">
             <div class="col-sm-4 hidden-xs"></div>
             <div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
-                                                           class="btn btn-accent btn-large rsvp-btn">RSVP</a></div>
+                                                           class="btn btn-accent btn-large rsvp-btn">Potvrdit účast</a></div>
             <div class="col-sm-4 hidden-xs"></div>
         </div>
     </div>
@@ -119,7 +119,7 @@
                 <h3>We are getting hitched</h3>
                 <p>The dates are 27<sup>th</sup> & 28<sup>th</sup> of November '17 and we would like you to be a part of
                     it.</p>
-                <div class="share-bar"></div>
+                <!-- <div class="share-bar"></div> -->
             </div>
         </div>
     </div>
@@ -366,7 +366,7 @@
          data-property="{videoURL:'https://youtu.be/9giqL1H6yRs',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
     </div>
     <div id="video-content">
-        <h5>Kolkata</h5>
+        <h5>Uhrovic mlýn</h5>
         <p>City of joy</p>
     </div>
 </section>
@@ -376,7 +376,9 @@
         <h3>How do I get there?</h3>
         <p>It's way easier than you think!</p>
     </div>
-    <div id="map-canvas"></div>
+    <div id="map-canvas">
+        <iframe style="border:none" src="https://mapy.com/s/mubapafemo" width="1800" height="400" frameborder="0"></iframe>
+    </div>
     <div id="map-content-wrapper" class="container pointer-events-none">
         <div class="row">
             <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
@@ -388,8 +390,9 @@
                 <div id="map-content" class="pointer-events-auto">
                     <div class="row">
                         <div class="col-md-6">
-                            <h5>ITC Fortune Park</h5>
-                            <p>Kona Expressway, Howrah, West Bengal 711403, India</p>
+                            <h5>Uhrovic mlýn</h5>
+                            <p>Milíčov 1, Šípy 270 34 <br>
+                            <a href="https://www.uhrovicmlyn.com/" target="_blank">Web</a></p>
                         </div>
                         <div class="col-md-6">
                             <h5>Mr. Amit Roy</h5>
@@ -398,14 +401,13 @@
                         </div>
                     </div>
                     <div class="row text-center">
-                        <div class="col-md-6" style="padding: 5px;">
+<!--                         <div class="col-md-6" style="padding: 5px;">
                             <a class="btn btn-fill btn-small"
                                href="https://m.uber.com/ul/?action=setPickup&client_id=Yh7Dl6SjB56RY2JuuZF8ttVa6ryFV78W&pickup=my_location&dropoff[formatted_address]=Fortune%20Park%20Panchwati%20-%20Hotels%20in%20Kolkata%2C%20Howrah%2C%20West%20Bengal%2C%20India&dropoff[latitude]=22.593276&dropoff[longitude]=88.270277"><i
                                     class="fa fa-taxi"></i>&nbsp;&nbsp;Book Uber</a>
-                        </div>
-                        <div class="col-md-6" style="padding: 5px;">
-                            <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
-                                map</a>
+                        </div> -->
+                        <div class="col-md-12" style="padding: 5px;">
+                            <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Ukázat mapu</a>
                         </div>
                     </div>
                 </div>
@@ -413,7 +415,8 @@
         </div>
     </div>
 </section>
-
+<section id="mapy" class="section-padding">
+</section>
 <section class="rsvp text-center" id="rsvp">
 
     <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
@@ -423,7 +426,7 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
                     </button>
                     <div class="section-padding">
-                        <h3>Thank you!</h3>
+                        <h3>Děkujeme!</h3>
                         <p>We are glad to see you join us on our big day.</p>
                         <div id="add-to-cal"></div>
                     </div>
@@ -444,14 +447,14 @@
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-envelope"></i><input type="email" name="email" class=""
-                                                                     placeholder="Your email"
+                                                                     placeholder="Váš email"
                                                                      required>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-user"></i><input name="name" class=""
-                                                                 placeholder="Your name"
+                                                                 placeholder="Vaše jméno"
                                                                  required>
                             </div>
                         </div>
@@ -461,7 +464,7 @@
                             <div class="form-input-group">
                                 <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
                                                                   max="4"
-                                                                  placeholder="Husband/Wife or kids"
+                                                                  placeholder="Počet osob"
                                                                   required>
                             </div>
                         </div>
@@ -469,7 +472,7 @@
                             <div class="form-input-group">
                                 <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
                                                                 class="" min="0"
-                                                                placeholder="Invite code"
+                                                                placeholder="Kód z pozvánky"
                                                                 required>
                             </div>
                         </div>
@@ -478,8 +481,7 @@
                         <div class="col-md-12" id="alert-wrapper"></div>
                     </div>
                     <button class="btn-fill rsvp-btn">
-                        Yes,
-                        that's me!
+                        Ano, zúčastním se!
                     </button>
                 </form>
             </div>
@@ -492,7 +494,7 @@
         <div class="row">
             <div class="col-sm-12 text-center content">
                 <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
-                <p>Crafted by Ram with lots of <span class="fa fa-heart pulse2"></span> for Antara</p>
+                <p><span class="fa fa-heart pulse2"></span> Luci a Jardík</p>
             </div>
         </div>
     </div>
@@ -508,7 +510,7 @@
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlPw3GQYI3faa_9mRE6plWuM7xNEmrwH0&callback=initMap"></script>
 <!-- Google Analytics -->
-<script>
+<!-- <script>
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
         i[r] = i[r] || function () {
@@ -521,7 +523,7 @@
         m.parentNode.insertBefore(a, m)
     })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
     ga('create', 'UA-46465113-4', 'auto');
-    ga('send', 'pageview');
-</script>
+    ga('send', 'pageview'); 
+</script> -->
 </body>
 </html>
