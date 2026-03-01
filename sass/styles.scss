@@ -36,6 +36,9 @@ a:hover, a:focus {
   color: $accent-color-hover;
   text-decoration: none;
 }
+html {
+  scroll-padding-top: 120px;
+}
 body {
   font-family: $sans-serif;
   font-weight: $light;
@@ -290,6 +293,7 @@ Hero
   position: fixed;
   width: 100%;
   z-index: 999;
+  background-color: rgba(55, 36, 40, .70);
 }
 .fixed {
   position: fixed;
