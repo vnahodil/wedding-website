@@ -259,6 +259,13 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    #video-bg {
+        background-position: left center;
+        background-attachment: scroll;
+    }
+}
+
 @media screen and (max-width: 640px) {
     .hero .hero-content {
         padding-top: 100%;
