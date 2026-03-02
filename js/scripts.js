@@ -18,12 +18,12 @@ $(document).ready(function () {
         offset: '75%'
     });
     $('.wp4').waypoint(function () {
-        $('.wp4').addClass('animated fadeInRight');
+        $('.wp4').addClass('animated fadeInLeft');
     }, {
         offset: '75%'
     });
     $('.wp5').waypoint(function () {
-        $('.wp5').addClass('animated fadeInLeft');
+        $('.wp5').addClass('animated fadeInUp');
     }, {
         offset: '75%'
     });
