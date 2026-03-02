@@ -11,10 +11,12 @@ $txt-accent: #ACB1B4;
 $form-placeholder: #BCC1C3;
 // form placeholder text
 // Global colours
-$accent-color: #e8ca6f;
-// global accent colour
-$accent-color-hover: #d3b56a;
+$accent-color: #BFB99F;
+// global accent colour (warm sand/beige)
+$accent-color-hover: #a5a08a;
 // global accent colour hover
+$nav-bg: #C0EDF2;
+// navbar and primary brand colour (sky blue)
 $white-color: #fff;
 $black-color: #000;
 // Typography colours
@@ -23,10 +25,11 @@ $h3-color: #3D4351;
 $h5-color: #3D4351;
 // Layout colours
 $section-light: #fff;
-$section-dark: #f8f9fd;
+$section-dark: #EAF8FA;
+// Layout colours (light blue tint of $nav-bg)
 $to-top-bg: #495061;
 $footer-primary: #3D4351;
 $footer-secondary: #373D4A;
 // Keylines
-$keyline-color: #E6E9EA;
+$keyline-color: #C8E9ED;
 $footer-keyline-color: #4E566C;
