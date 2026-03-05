@@ -398,6 +398,12 @@ Intro
     width: 100%;
     height: auto;
   }
+  .wp8-col {
+    padding-right: 0;
+  }
+  .wp9-col {
+    padding-left: 0;
+  }
 }
 #intro p {
   text-align: center;
