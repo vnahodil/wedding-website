@@ -10,11 +10,9 @@ $txt-light: #fff;
 $txt-accent: #ACB1B4;
 $form-placeholder: #BCC1C3;
 // form placeholder text
-// Global colours
-$accent-color: #BFB99F;
-// global accent colour (warm sand/beige)
-$accent-color-hover: #a5a08a;
-// global accent colour hover
+// Global colours — editable via CSS custom properties in index.html
+$accent-color: var(--accent-color);
+$accent-color-hover: var(--accent-color-hover);
 $nav-bg: #E3F7F8;
 // navbar and primary brand colour (sky blue)
 $white-color: #fff;
@@ -23,13 +21,12 @@ $black-color: #000;
 $h2-color: #3D4351;
 $h3-color: #3D4351;
 $h5-color: #3D4351;
-// Layout colours
+// Layout colours — editable via CSS custom properties in index.html
 $section-light: #fff;
-$section-dark: #EAF8FA;
-// Layout colours (light blue tint of $nav-bg)
+$section-dark: var(--section-dark);
 $to-top-bg: #495061;
 $footer-primary: #3D4351;
 $footer-secondary: #373D4A;
-// Keylines
-$keyline-color: #C8E9ED;
+// Keylines — editable via CSS custom properties in index.html
+$keyline-color: var(--keyline-color);
 $footer-keyline-color: #4E566C;
