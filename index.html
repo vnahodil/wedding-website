@@ -446,7 +446,7 @@
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-user"></i>
-                                <input name="name" placeholder="Vaše jméno" required>
+                                <input name="name" placeholder="Vaše jméno/jména" required>
                             </div>
                         </div>
                     </div>
@@ -454,14 +454,23 @@
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-users"></i>
-                                <input type="number" name="extras" min="0" max="4"
-                                       placeholder="Počet osob" required>
+                                <input type="number" name="table" min="0" max="10"
+                                       placeholder="Počet osob u stolu" required>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
+                                <i class="fa fa-bed"></i>
+                                <input type="number" name="beds" min="0" max="10"
+                                       placeholder="Pref. počet lůžek (So-Ne)" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-input-group">
                                 <i class="fa fa-key"></i>
-                                <input type="number" name="invite_code" id="invite_code" min="0"
+                                <input type="text" name="invite_code" id="invite_code"
                                        placeholder="Jméno malého Koblížka" required>
                             </div>
                         </div>
