@@ -787,7 +787,7 @@ RSVP form
         left: 30px;
         transform: translateY(-50%);
       }
-      i.fa-user, i.fa-users, i.fa-envelope, i.fa-bed, .fa-key {
+      i.fa-user, i.fa-users, i.fa-envelope, i.fa-bed, i.fa-key, i.fa-moon-o, i.fa-comment {
         font-size: 14px;
         position: absolute;
         top: 50%;
@@ -814,6 +814,32 @@ RSVP form
       }
       input:-ms-input-placeholder {
         color: $form-placeholder;
+      }
+      &.textarea-group {
+        height: auto;
+        i {
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        i:after {
+          height: 65px;
+        }
+        textarea {
+          padding: 14px 14px 14px 68px;
+          width: 100%;
+          -moz-border-radius: 6px;
+          -webkit-border-radius: 6px;
+          border-radius: 6px;
+          border: none;
+          background: transparent;
+          font-size: 13px;
+          color: inherit;
+          &::-webkit-input-placeholder { color: $form-placeholder; }
+          &:-moz-placeholder { color: $form-placeholder; }
+          &::-moz-placeholder { color: $form-placeholder; }
+          &:-ms-input-placeholder { color: $form-placeholder; }
+          &:focus { outline: none; }
+        }
       }
     }
   }
