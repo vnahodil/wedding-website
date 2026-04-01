@@ -187,7 +187,7 @@ $(document).ready(function () {
         $('#alert-wrapper').html(alert_markup('info', '<strong>Vteřinku!</strong> Ukládáme vaše údaje.'));
 
         if (MD5($('#invite_code').val().toLowerCase()) !== '4bd2b007716888ed6bf6c2399a6d7305') {
-            $('#alert-wrapper').html(alert_markup('danger', '<strong>Promiň!</strong> Tvůj kód z pozvánky je nesprávný.'));
+            $('#alert-wrapper').html(alert_markup('danger', '<strong>Promiň!</strong> Zadej celé křestní jméno.'));
         } else {
             $.post('https://script.google.com/macros/s/AKfycbx_Ak4Yo8X3gls1Tj3KadQPSJpeOKCr1W9691oGiC6kZF9NECsOpzqscoZiTGbKErMdlA/exec', data)
                 .done(function (data) {
